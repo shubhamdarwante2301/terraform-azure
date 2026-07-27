@@ -7,28 +7,19 @@ Terraform Infrastructure as Code (IaC) for provisioning and managing Microsoft A
 terraform-azure-infra
 │
 ├── environments
-│   ├── dev
-│   ├── test
-│   ├── uat
-│   └── prod
+│   └── dev
+│       ├── main.tf
+│       ├── provider.tf
+│       ├── variables.tf
+│       ├── outputs.tf
+│       ├── versions.tf
+│       ├── terraform.tfvars.example
+│       └── terraform.tfvars     (ignored by Git)
 │
 ├── modules
 │   ├── resource-group
-│   ├── vnet
-│   ├── subnet
-│   ├── nsg
-│   ├── route-table
-│   ├── key-vault
-│   ├── storage-account
-│   ├── vm
-│   ├── app-service
-│   ├── aks
-│   ├── sql
-│   └── private-endpoint
+│   └── vnet
 │
-├── scripts
-├── docs
 ├── README.md
-├── .gitignore
-└── versions.tf
+└── .gitignore
 ```
