@@ -1,0 +1,28 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which can contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# Ignore .terraform.lock.hcl if you want to keep provider versions locked per developer environment
+# but generally, it's recommended to commit this file to keep team versions consistent.
+# .terraform.lock.hcl
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore sensitive files
+*.pem
+*.key
+*.pfx
+secrets.tfvars
